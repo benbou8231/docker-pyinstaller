@@ -25,4 +25,3 @@ VOLUME /data
 WORKDIR /data
 
 COPY entrypoint.sh pyinstaller-helper /usr/local/bin/
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
